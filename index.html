@@ -1,5 +1,350 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeRoDaRu - Organization Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
-  <h1>HeRoDaRu Repositories</h1>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HeRoDaRu</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to <span>HeRoDaRu</span></h1>
+                <p>Transforming ideas into impactful solutions</p>
+                <a href="#about" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Who we are and what we stand for</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>HeRoDaRu was founded with a vision to create meaningful impact through innovative solutions. Since our inception, we've been dedicated to excellence and committed to delivering outstanding results for our clients and communities.</p>
+                    
+                    <h3>Our Mission</h3>
+                    <p>We strive to empower organizations and individuals through cutting-edge solutions that address real-world challenges. Our mission is to create sustainable value while maintaining the highest standards of integrity and professionalism.</p>
+                    
+                    <h3>Our Values</h3>
+                    <ul>
+                        <li><strong>Innovation:</strong> We embrace creativity and forward-thinking approaches.</li>
+                        <li><strong>Excellence:</strong> We commit to the highest quality in everything we do.</li>
+                        <li><strong>Integrity:</strong> We uphold honesty and ethical standards in all interactions.</li>
+                        <li><strong>Collaboration:</strong> We believe in the power of teamwork and partnerships.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x400" alt="About HeRoDaRu">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>What we offer to our clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Service 1</h3>
+                    <p>Comprehensive solutions tailored to meet your specific needs with attention to detail and quality assurance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Service 2</h3>
+                    <p>Strategic planning and implementation to help you achieve your goals and maximize your potential.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Service 3</h3>
+                    <p>Innovative approaches to problem-solving that drive results and create lasting value for your organization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Service 4</h3>
+                    <p>Collaborative partnerships that leverage our expertise and your vision to achieve remarkable outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Projects</h2>
+                <p>Showcasing our work and achievements</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="category1">Category 1</button>
+                <button class="filter-btn" data-filter="category2">Category 2</button>
+                <button class="filter-btn" data-filter="category3">Category 3</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="category1">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="category2">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="category1">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project 3</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="category3">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 4">
+                    <div class="project-info">
+                        <h3>Project 4</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="category2">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 5">
+                    <div class="project-info">
+                        <h3>Project 5</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="category3">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 6">
+                    <div class="project-info">
+                        <h3>Project 6</h3>
+                        <p>Brief description of the project and its impact.</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <p>Meet the people behind HeRoDaRu</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Team Member 1">
+                    </div>
+                    <div class="member-info">
+                        <h3>Team Member 1</h3>
+                        <p class="position">Position</p>
+                        <p class="bio">Brief bio about the team member and their expertise.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Team Member 2">
+                    </div>
+                    <div class="member-info">
+                        <h3>Team Member 2</h3>
+                        <p class="position">Position</p>
+                        <p class="bio">Brief bio about the team member and their expertise.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Team Member 3">
+                    </div>
+                    <div class="member-info">
+                        <h3>Team Member 3</h3>
+                        <p class="position">Position</p>
+                        <p class="bio">Brief bio about the team member and their expertise.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Team Member 4">
+                    </div>
+                    <div class="member-info">
+                        <h3>Team Member 4</h3>
+                        <p class="position">Position</p>
+                        <p class="bio">Brief bio about the team member and their expertise.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Main Street, City, Country</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@herodaru.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>HeRoDaRu</h2>
+                    <p>Transforming ideas into impactful solutions</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HeRoDaRu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="resources/script.js"></script>
 </body>
 </html>
