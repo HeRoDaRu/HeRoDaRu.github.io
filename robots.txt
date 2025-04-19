@@ -1,0 +1,9 @@
+# robots.txt for HeRoDaRu.github.io
+User-agent: *
+Allow: /
+
+# Allow all web crawlers to access all content
+Disallow:
+
+# Sitemap location
+Sitemap: https://herodaru.github.io/sitemap.xml
